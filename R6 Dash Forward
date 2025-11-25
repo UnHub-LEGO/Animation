@@ -1,0 +1,724 @@
+local KeyframeSequence = Instance.new("KeyframeSequence")
+KeyframeSequence.Name = "Imported Animation Clip"
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0
+  k.Parent = KeyframeSequence
+  do
+    local p1 = Instance.new("Pose")
+    p1.Name = "HumanoidRootPart"
+    p1.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p1.Parent = k
+    do
+      local p2 = Instance.new("Pose")
+      p2.Name = "Torso"
+      p2.CFrame = CFrame.new(0, 0, 0, 0.977460682, 0.174361706, -0.119032197, -0.211069256, 0.819172084, -0.533298194, 0.00452106446, 0.546402037, 0.837510884)
+      p2.Parent = p1
+      do
+        local p3 = Instance.new("Pose")
+        p3.Name = "Left Leg"
+        p3.CFrame = CFrame.new(-1.06480885, 0.693212211, 0.274360478, 0.907843351, -0.344332665, 0.239281341, 0.361720353, 0.931752324, -0.0315639451, -0.212082446, 0.115208067, 0.970437229)
+        p3.Parent = p2
+      end
+      do
+        local p4 = Instance.new("Pose")
+        p4.Name = "Right Arm"
+        p4.CFrame = CFrame.new(-0.44910109, -0.292374164, 0.11571604, -0.38806963, -0.809217632, -0.441099852, 0.919249058, -0.305474281, -0.248328149, 0.0662068203, -0.501849115, 0.862417638)
+        p4.Parent = p2
+      end
+      do
+        local p5 = Instance.new("Pose")
+        p5.Name = "Head"
+        p5.CFrame = CFrame.new(0, 0, 0, 0.986090958, -0.166206613, 0, 0.14926669, 0.885587752, 0.43983385, -0.0731032938, -0.433716178, 0.898079157)
+        p5.Parent = p2
+      end
+      do
+        local p6 = Instance.new("Pose")
+        p6.Name = "Right Leg"
+        p6.CFrame = CFrame.new(0, -1.1920929e-07, 2.98023224e-08, 1, 0, 0, 0, 0.976360917, 0.216146737, 0, -0.216146737, 0.976360917)
+        p6.Parent = p2
+      end
+      do
+        local p7 = Instance.new("Pose")
+        p7.Name = "Left Arm"
+        p7.CFrame = CFrame.new(-0.532345176, -0.322673917, 0.0172040761, -0.197224379, 0.538423538, -0.819270372, -0.921319842, -0.38741982, -0.0328213871, -0.335072905, 0.748335719, 0.572468162)
+        p7.Parent = p2
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.03333333507180214
+  k.Parent = KeyframeSequence
+  do
+    local p8 = Instance.new("Pose")
+    p8.Name = "HumanoidRootPart"
+    p8.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p8.Parent = k
+    do
+      local p9 = Instance.new("Pose")
+      p9.Name = "Torso"
+      p9.CFrame = CFrame.new(0, 0, 0, 0.935174882, 0.277225643, -0.220440239, -0.354029894, 0.713152766, -0.60504216, -0.0105256699, 0.643862724, 0.765068769)
+      p9.Parent = p8
+      do
+        local p10 = Instance.new("Pose")
+        p10.Name = "Left Leg"
+        p10.CFrame = CFrame.new(-1.00584888, 0.91164875, 0.308372885, 0.969705105, 0.0491665602, 0.239281297, -0.0428417325, 0.998583794, -0.0315639228, -0.240494296, 0.020356372, 0.970437109)
+        p10.Parent = p9
+      end
+      do
+        local p11 = Instance.new("Pose")
+        p11.Name = "Right Arm"
+        p11.CFrame = CFrame.new(-0.526462913, -0.353888541, -0.145247519, -0.486587286, -0.624166906, -0.611268401, 0.873131275, -0.323749363, -0.364456594, 0.0295839831, -0.711057186, 0.702511668)
+        p11.Parent = p9
+      end
+      do
+        local p12 = Instance.new("Pose")
+        p12.Name = "Head"
+        p12.CFrame = CFrame.new(-1.40054661e-08, 0, 0, 0.939890921, -0.341474831, 0, 0.306671411, 0.844096422, 0.43983385, -0.150192186, -0.413395852, 0.898079157)
+        p12.Parent = p9
+      end
+      do
+        local p13 = Instance.new("Pose")
+        p13.Name = "Right Leg"
+        p13.CFrame = CFrame.new(0, -1.1920929e-07, -2.98023224e-08, 0.967436194, 0.253115028, 0, -0.247131616, 0.944566905, 0.216146737, 0.0547099859, -0.209108174, 0.976360917)
+        p13.Parent = p9
+      end
+      do
+        local p14 = Instance.new("Pose")
+        p14.Name = "Left Arm"
+        p14.CFrame = CFrame.new(-0.321007609, -0.0715464428, 0.0137502551, -0.0221742988, 0.466344416, -0.8843261, -0.980448544, -0.183138102, -0.0719928741, -0.195526913, 0.865438342, 0.461287051)
+        p14.Parent = p9
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.1666666716337204
+  k.Parent = KeyframeSequence
+  do
+    local p15 = Instance.new("Pose")
+    p15.Name = "HumanoidRootPart"
+    p15.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p15.Parent = k
+    do
+      local p16 = Instance.new("Pose")
+      p16.Name = "Torso"
+      p16.CFrame = CFrame.new(0, 0, 0, 0.896102965, 0.374765128, -0.237803996, -0.430894941, 0.606067598, -0.668589354, -0.106438681, 0.701593399, 0.704583466)
+      p16.Parent = p15
+      do
+        local p17 = Instance.new("Pose")
+        p17.Name = "Left Leg"
+        p17.CFrame = CFrame.new(-0.822790086, 0.871126056, 0.221061498, 0.866368055, 0.22121039, 0.447742999, -0.271246731, 0.961213589, 0.0499615967, -0.419324011, -0.164733961, 0.89276588)
+        p17.Parent = p16
+      end
+      do
+        local p18 = Instance.new("Pose")
+        p18.Name = "Right Arm"
+        p18.CFrame = CFrame.new(-0.652664781, -0.259195089, -0.251106232, -0.431779921, -0.58195883, -0.689124703, 0.892623186, -0.165917382, -0.419166505, 0.12959978, -0.796114266, 0.591108084)
+        p18.Parent = p16
+      end
+      do
+        local p19 = Instance.new("Pose")
+        p19.Name = "Head"
+        p19.CFrame = CFrame.new(1.3038516e-08, -8.94069672e-08, 1.1920929e-07, 0.883460104, -0.466311306, -0.0452986993, 0.420755744, 0.747173369, 0.514486611, -0.206064939, -0.473588169, 0.856301129)
+        p19.Parent = p16
+      end
+      do
+        local p20 = Instance.new("Pose")
+        p20.Name = "Right Leg"
+        p20.CFrame = CFrame.new(0, 2.38418579e-07, 8.94069672e-08, 0.935236275, 0.349714071, 0.0550741628, -0.345655322, 0.86838609, 0.355567038, 0.0765211582, -0.351575881, 0.933026731)
+        p20.Parent = p16
+      end
+      do
+        local p21 = Instance.new("Pose")
+        p21.Name = "Left Arm"
+        p21.CFrame = CFrame.new(-0.213793814, 0.0361277536, -0.0025152117, -0.113407001, 0.484186143, -0.867585301, -0.993534267, -0.060164094, 0.0962930322, -0.00557360053, 0.872894406, 0.487877756)
+        p21.Parent = p16
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.28333333134651184
+  k.Parent = KeyframeSequence
+  do
+    local p22 = Instance.new("Pose")
+    p22.Name = "HumanoidRootPart"
+    p22.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p22.Parent = k
+    do
+      local p23 = Instance.new("Pose")
+      p23.Name = "Torso"
+      p23.CFrame = CFrame.new(6.81728125e-07, 1.50874257e-07, -0.0526958033, 0.881904364, 0.415189087, -0.223300174, -0.446223736, 0.582365394, -0.679511011, -0.152083218, 0.698905408, 0.698857903)
+      p23.Parent = p22
+      do
+        local p24 = Instance.new("Pose")
+        p24.Name = "Left Leg"
+        p24.CFrame = CFrame.new(-0.731946349, 0.783453524, 0.235819697, 0.834112525, 0.322156608, 0.447743356, -0.383062541, 0.922373354, 0.0499617308, -0.396889687, -0.213187099, 0.892766595)
+        p24.Parent = p23
+      end
+      do
+        local p25 = Instance.new("Pose")
+        p25.Name = "Right Arm"
+        p25.CFrame = CFrame.new(-0.653939962, -0.257876903, -0.251819134, -0.505177438, -0.529103458, -0.681798041, 0.852983236, -0.185979024, -0.487687141, 0.131236419, -0.827927947, 0.545266569)
+        p25.Parent = p23
+      end
+      do
+        local p26 = Instance.new("Pose")
+        p26.Name = "Head"
+        p26.CFrame = CFrame.new(4.84287739e-08, -1.49011612e-07, 2.68220901e-07, 0.86619103, -0.488763124, -0.10403651, 0.465317786, 0.712993979, 0.524517596, -0.182187438, -0.502742589, 0.845019341)
+        p26.Parent = p23
+      end
+      do
+        local p27 = Instance.new("Pose")
+        p27.Name = "Right Leg"
+        p27.CFrame = CFrame.new(0.120346963, -0.120339394, -0.0261877924, 0.902244747, 0.40729177, 0.141662329, -0.430928707, 0.839406431, 0.331207335, 0.0159858242, -0.359876275, 0.932863295)
+        p27.Parent = p23
+      end
+      do
+        local p28 = Instance.new("Pose")
+        p28.Name = "Left Arm"
+        p28.CFrame = CFrame.new(-0.213796437, 0.036127679, -0.00251503289, -0.18417272, 0.49645403, -0.84830153, -0.977242112, -5.69708645e-05, 0.212132543, 0.105265662, 0.86806339, 0.485165447)
+        p28.Parent = p23
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.3333333432674408
+  k.Parent = KeyframeSequence
+  do
+    local p29 = Instance.new("Pose")
+    p29.Name = "HumanoidRootPart"
+    p29.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p29.Parent = k
+    do
+      local p30 = Instance.new("Pose")
+      p30.Name = "Torso"
+      p30.CFrame = CFrame.new(6.81728125e-07, 1.50874257e-07, -0.0526958033, 0.881904364, 0.415189087, -0.223300174, -0.446223736, 0.582365394, -0.679511011, -0.152083218, 0.698905408, 0.698857903)
+      p30.Parent = p29
+      do
+        local p31 = Instance.new("Pose")
+        p31.Name = "Left Leg"
+        p31.CFrame = CFrame.new(-0.731946349, 0.783453524, 0.235819697, 0.834112525, 0.322156608, 0.447743356, -0.383062541, 0.922373354, 0.0499617308, -0.396889687, -0.213187099, 0.892766595)
+        p31.Parent = p30
+      end
+      do
+        local p32 = Instance.new("Pose")
+        p32.Name = "Right Arm"
+        p32.CFrame = CFrame.new(-0.653939962, -0.257876903, -0.251819134, -0.505177438, -0.529103458, -0.681798041, 0.852983236, -0.185979024, -0.487687141, 0.131236419, -0.827927947, 0.545266569)
+        p32.Parent = p30
+      end
+      do
+        local p33 = Instance.new("Pose")
+        p33.Name = "Head"
+        p33.CFrame = CFrame.new(4.84287739e-08, -1.49011612e-07, 2.68220901e-07, 0.86619103, -0.488763124, -0.10403651, 0.465317786, 0.712993979, 0.524517596, -0.182187438, -0.502742589, 0.845019341)
+        p33.Parent = p30
+      end
+      do
+        local p34 = Instance.new("Pose")
+        p34.Name = "Right Leg"
+        p34.CFrame = CFrame.new(0.120346963, -0.120339394, -0.0261877924, 0.902244747, 0.40729177, 0.141662329, -0.430928707, 0.839406431, 0.331207335, 0.0159858242, -0.359876275, 0.932863295)
+        p34.Parent = p30
+      end
+      do
+        local p35 = Instance.new("Pose")
+        p35.Name = "Left Arm"
+        p35.CFrame = CFrame.new(-0.213796437, 0.036127679, -0.00251503289, -0.18417272, 0.49645403, -0.84830153, -0.977242112, -5.69708645e-05, 0.212132543, 0.105265662, 0.86806339, 0.485165447)
+        p35.Parent = p30
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.34166666865348816
+  k.Parent = KeyframeSequence
+  do
+    local p36 = Instance.new("Pose")
+    p36.Name = "HumanoidRootPart"
+    p36.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p36.Parent = k
+    do
+      local p37 = Instance.new("Pose")
+      p37.Name = "Torso"
+      p37.CFrame = CFrame.new(6.81728125e-07, 1.58324838e-07, -0.052695822, 0.901429892, 0.372155577, -0.221188471, -0.421956688, 0.640986443, -0.641162217, -0.096833244, 0.671294749, 0.73483789)
+      p37.Parent = p36
+      do
+        local p38 = Instance.new("Pose")
+        p38.Name = "Left Leg"
+        p38.CFrame = CFrame.new(-0.527900934, 0.512111068, 0.193576455, 0.834179938, 0.358792096, 0.418822229, -0.382904798, 0.923352242, -0.0283651613, -0.396897614, -0.13670741, 0.907625139)
+        p38.Parent = p37
+      end
+      do
+        local p39 = Instance.new("Pose")
+        p39.Name = "Right Arm"
+        p39.CFrame = CFrame.new(-0.55558598, -0.209207863, -0.189545393, -0.505174875, -0.606871903, -0.613599896, 0.852980196, -0.242987275, -0.461932957, 0.131237119, -0.756745517, 0.640400767)
+        p39.Parent = p37
+      end
+      do
+        local p40 = Instance.new("Pose")
+        p40.Name = "Head"
+        p40.CFrame = CFrame.new(5.0291419e-08, -1.63912773e-07, 2.98023224e-07, 0.870952308, -0.48829183, -0.0548928902, 0.447851628, 0.742887616, 0.497540891, -0.202165872, -0.457918227, 0.865701973)
+        p40.Parent = p37
+      end
+      do
+        local p41 = Instance.new("Pose")
+        p41.Name = "Right Leg"
+        p41.CFrame = CFrame.new(0.532443643, 0.181016147, -0.0297819376, 0.902244508, 0.417916924, 0.106303111, -0.430928499, 0.864660978, 0.258190006, 0.0159858242, -0.278759569, 0.960227907)
+        p41.Parent = p37
+      end
+      do
+        local p42 = Instance.new("Pose")
+        p42.Name = "Left Arm"
+        p42.CFrame = CFrame.new(-0.256125689, -0.0646493658, -0.00704827905, -0.108184338, 0.597671688, -0.794408441, -0.991318047, -0.124926269, 0.0410118997, -0.0747307837, 0.791948199, 0.605997741)
+        p42.Parent = p37
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.3499999940395355
+  k.Parent = KeyframeSequence
+  do
+    local p43 = Instance.new("Pose")
+    p43.Name = "HumanoidRootPart"
+    p43.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p43.Parent = k
+    do
+      local p44 = Instance.new("Pose")
+      p44.Name = "Torso"
+      p44.CFrame = CFrame.new(6.8731606e-07, 1.65775418e-07, -0.0526958331, 0.915461481, 0.336082548, -0.221311539, -0.398970157, 0.686339736, -0.608079493, -0.0524699911, 0.64497, 0.762404501)
+      p44.Parent = p43
+      do
+        local p45 = Instance.new("Pose")
+        p45.Name = "Left Leg"
+        p45.CFrame = CFrame.new(-0.360954642, 0.290103614, 0.159013867, 0.834239781, 0.386857986, 0.392918378, -0.382777512, 0.919215322, -0.092328459, -0.396894604, -0.0733762681, 0.914926589)
+        p45.Parent = p44
+      end
+      do
+        local p46 = Instance.new("Pose")
+        p46.Name = "Right Arm"
+        p46.CFrame = CFrame.new(-0.475114524, -0.169387758, -0.13859421, -0.505175114, -0.664062977, -0.55119741, 0.852980137, -0.287071228, -0.435907245, 0.13123697, -0.690369844, 0.711453676)
+        p46.Parent = p44
+      end
+      do
+        local p47 = Instance.new("Pose")
+        p47.Name = "Head"
+        p47.CFrame = CFrame.new(6.56582415e-08, -2.23517418e-07, 2.68220901e-07, 0.87387538, -0.485928744, -0.014667578, 0.43399033, 0.76616478, 0.473966181, -0.219075978, -0.420552969, 0.880420864)
+        p47.Parent = p44
+      end
+      do
+        local p48 = Instance.new("Pose")
+        p48.Name = "Right Leg"
+        p48.CFrame = CFrame.new(0.869613647, 0.42757988, -0.0327225924, 0.902244508, 0.424334258, 0.0767813325, -0.430928499, 0.880616426, 0.197016224, 0.0159858223, -0.210844055, 0.977389038)
+        p48.Parent = p44
+      end
+      do
+        local p49 = Instance.new("Pose")
+        p49.Name = "Left Arm"
+        p49.CFrame = CFrame.new(-0.290758789, -0.147103414, -0.010757383, -0.0620620847, 0.678967237, -0.731540859, -0.971886754, -0.207903504, -0.110509723, -0.227122307, 0.704116344, 0.672782004)
+        p49.Parent = p44
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.3583333194255829
+  k.Parent = KeyframeSequence
+  do
+    local p50 = Instance.new("Pose")
+    p50.Name = "HumanoidRootPart"
+    p50.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p50.Parent = k
+    do
+      local p51 = Instance.new("Pose")
+      p51.Name = "Torso"
+      p51.CFrame = CFrame.new(6.90110028e-07, 1.65775418e-07, -0.0526958406, 0.925122976, 0.307595372, -0.222559065, -0.379210651, 0.719855189, -0.581384361, -0.0186208561, 0.622248828, 0.782598019)
+      p51.Parent = p50
+      do
+        local p52 = Instance.new("Pose")
+        p52.Name = "Left Leg"
+        p52.CFrame = CFrame.new(-0.231107533, 0.117431283, 0.132131815, 0.834288538, 0.407404959, 0.371461719, -0.382680058, 0.912935913, -0.141788602, -0.39688614, -0.0238583609, 0.917557716)
+        p52.Parent = p51
+      end
+      do
+        local p53 = Instance.new("Pose")
+        p53.Name = "Right Arm"
+        p53.CFrame = CFrame.new(-0.412525564, -0.138416529, -0.0989655852, -0.505174994, -0.704154491, -0.498963654, 0.852980137, -0.319469988, -0.412751555, 0.13123697, -0.634117842, 0.762017965)
+        p53.Parent = p51
+      end
+      do
+        local p54 = Instance.new("Pose")
+        p54.Name = "Head"
+        p54.CFrame = CFrame.new(5.58793545e-08, -2.08616257e-07, 2.98023224e-07, 0.875538826, -0.482863873, 0.0165622383, 0.423499435, 0.783495426, 0.454734296, -0.232551143, -0.391123444, 0.890473187)
+        p54.Parent = p51
+      end
+      do
+        local p55 = Instance.new("Pose")
+        p55.Name = "Right Leg"
+        p55.CFrame = CFrame.new(1.13185692, 0.619351625, -0.0350097418, 0.902244508, 0.427886754, 0.0535519198, -0.430928439, 0.890041232, 0.148752481, 0.0159858093, -0.157288164, 0.98742336)
+        p55.Parent = p51
+      end
+      do
+        local p56 = Instance.new("Pose")
+        p56.Name = "Left Arm"
+        p56.CFrame = CFrame.new(-0.317695141, -0.211234093, -0.0136420354, -0.037471056, 0.739041686, -0.672616541, -0.937958837, -0.258198559, -0.231444135, -0.344715655, 0.622214258, 0.702865899)
+        p56.Parent = p51
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.36666667461395264
+  k.Parent = KeyframeSequence
+  do
+    local p57 = Instance.new("Pose")
+    p57.Name = "HumanoidRootPart"
+    p57.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p57.Parent = k
+    do
+      local p58 = Instance.new("Pose")
+      p58.Name = "Torso"
+      p58.CFrame = CFrame.new(6.89178705e-07, 1.67638063e-07, -0.0526958592, 0.931337774, 0.287062109, -0.224065498, -0.364120126, 0.742798507, -0.561842501, 0.00515182316, 0.604851902, 0.796321392)
+      p58.Parent = p57
+      do
+        local p59 = Instance.new("Pose")
+        p59.Name = "Left Leg"
+        p59.CFrame = CFrame.new(-0.138359666, -0.00590616465, 0.112930357, 0.834324658, 0.421357423, 0.355471998, -0.382611245, 0.906820953, -0.176874056, -0.396876663, 0.0115628093, 0.917799115)
+        p59.Parent = p58
+      end
+      do
+        local p60 = Instance.new("Pose")
+        p60.Name = "Right Arm"
+        p60.CFrame = CFrame.new(-0.36781916, -0.116294265, -0.0706591606, -0.505174994, -0.730294287, -0.459857106, 0.852980196, -0.341483951, -0.394732296, 0.131236911, -0.591657877, 0.795435667)
+        p60.Parent = p58
+      end
+      do
+        local p61 = Instance.new("Pose")
+        p61.Name = "Head"
+        p61.CFrame = CFrame.new(4.28408384e-08, -2.68220901e-07, 2.68220901e-07, 0.876398623, -0.480019897, 0.0388110504, 0.416170746, 0.795444191, 0.440534174, -0.242337197, -0.369931519, 0.896896482)
+        p61.Parent = p58
+      end
+      do
+        local p62 = Instance.new("Pose")
+        p62.Name = "Right Leg"
+        p62.CFrame = CFrame.new(1.31917357, 0.756331444, -0.0366434455, 0.902244508, 0.42964685, 0.0368580855, -0.430928528, 0.895156264, 0.113999583, 0.015985813, -0.118738689, 0.992796838)
+        p62.Parent = p58
+      end
+      do
+        local p63 = Instance.new("Pose")
+        p63.Name = "Left Arm"
+        p63.CFrame = CFrame.new(-0.336935878, -0.257041961, -0.0157025903, -0.0263283849, 0.779382348, -0.6259951, -0.904104829, -0.285736382, -0.317724943, -0.42649883, 0.557600021, 0.712166429)
+        p63.Parent = p58
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.375
+  k.Parent = KeyframeSequence
+  do
+    local p64 = Instance.new("Pose")
+    p64.Name = "HumanoidRootPart"
+    p64.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p64.Parent = k
+    do
+      local p65 = Instance.new("Pose")
+      p65.Name = "Torso"
+      p65.CFrame = CFrame.new(6.90110028e-07, 1.73225999e-07, -0.0526958555, 0.934788048, 0.274681062, -0.225214541, -0.354684621, 0.756151259, -0.549940109, 0.0192381442, 0.593957543, 0.804266334)
+      p65.Parent = p64
+      do
+        local p66 = Instance.new("Pose")
+        p66.Name = "Left Leg"
+        p66.CFrame = CFrame.new(-0.0827109218, -0.079908669, 0.101409525, 0.834346652, 0.429429352, 0.345624179, -0.382570386, 0.902504206, -0.197802991, -0.396869689, 0.0328106806, 0.917288303)
+        p66.Parent = p65
+      end
+      do
+        local p67 = Instance.new("Pose")
+        p67.Name = "Right Arm"
+        p67.CFrame = CFrame.new(-0.340995312, -0.103020929, -0.0536755323, -0.505175114, -0.744941413, -0.435729802, 0.852980077, -0.354209602, -0.383354366, 0.131236851, -0.565329909, 0.814357996)
+        p67.Parent = p65
+      end
+      do
+        local p68 = Instance.new("Pose")
+        p68.Name = "Head"
+        p68.CFrame = CFrame.new(3.7252903e-08, -2.83122063e-07, 2.68220901e-07, 0.876782835, -0.478052735, 0.0521291345, 0.411842167, 0.802437127, 0.431834161, -0.248269841, -0.3571558, 0.900445342)
+        p68.Parent = p65
+      end
+      do
+        local p69 = Instance.new("Pose")
+        p69.Name = "Right Leg"
+        p69.CFrame = CFrame.new(1.4315635, 0.838519335, -0.0376236737, 0.902244449, 0.430390477, 0.0268133525, -0.430928528, 0.897574604, 0.0930615142, 0.0159858111, -0.0955188796, 0.99529928)
+        p69.Parent = p65
+      end
+      do
+        local p70 = Instance.new("Pose")
+        p70.Name = "Left Arm"
+        p70.CFrame = CFrame.new(-0.348480225, -0.284526497, -0.016938895, -0.02228266, 0.802321494, -0.596476018, -0.88013202, -0.29873544, -0.368950546, -0.474205583, 0.516756415, 0.712805629)
+        p70.Parent = p65
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.38333332538604736
+  k.Parent = KeyframeSequence
+  do
+    local p71 = Instance.new("Pose")
+    p71.Name = "HumanoidRootPart"
+    p71.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p71.Parent = k
+    do
+      local p72 = Instance.new("Pose")
+      p72.Name = "Torso"
+      p72.CFrame = CFrame.new(6.90110028e-07, 1.69500709e-07, -0.0526958555, 0.935891449, 0.270545214, -0.22563833, -0.351476908, 0.760532022, -0.545944393, 0.023902541, 0.590251207, 0.806865931)
+      p72.Parent = p71
+      do
+        local p73 = Instance.new("Pose")
+        p73.Name = "Left Leg"
+        p73.CFrame = CFrame.new(-0.0641613007, -0.10457617, 0.0975691974, 0.834354162, 0.432069063, 0.342300355, -0.382556796, 0.900957942, -0.204756379, -0.396867126, 0.0398899913, 0.917008877)
+        p73.Parent = p72
+      end
+      do
+        local p74 = Instance.new("Pose")
+        p74.Name = "Right Arm"
+        p74.CFrame = CFrame.new(-0.332054049, -0.0985964537, -0.0480142832, -0.505177438, -0.749647975, -0.427582741, 0.852983236, -0.358369708, -0.379470825, 0.131236419, -0.556419253, 0.820474267)
+        p74.Parent = p72
+      end
+      do
+        local p75 = Instance.new("Pose")
+        p75.Name = "Head"
+        p75.CFrame = CFrame.new(3.53902578e-08, -2.68220901e-07, 2.98023224e-07, 0.87688899, -0.477353632, 0.0565624721, 0.410410911, 0.804738224, 0.428904593, -0.250257134, -0.352887839, 0.901577294)
+        p75.Parent = p72
+      end
+      do
+        local p76 = Instance.new("Pose")
+        p76.Name = "Right Leg"
+        p76.CFrame = CFrame.new(1.4690268, 0.865915298, -0.0379503965, 0.902245045, 0.430586189, 0.0234616399, -0.430929184, 0.898273528, 0.0860703737, 0.0159858614, -0.0877667964, 0.996013343)
+        p76.Parent = p72
+      end
+      do
+        local p77 = Instance.new("Pose")
+        p77.Name = "Left Arm"
+        p77.CFrame = CFrame.new(-0.35232836, -0.293688178, -0.0173511207, -0.0213783681, 0.809735477, -0.586406887, -0.871554554, -0.302467138, -0.385886729, -0.489833981, 0.502835095, 0.712193727)
+        p77.Parent = p72
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.4333333373069763
+  k.Parent = KeyframeSequence
+  do
+    local p78 = Instance.new("Pose")
+    p78.Name = "HumanoidRootPart"
+    p78.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p78.Parent = k
+    do
+      local p79 = Instance.new("Pose")
+      p79.Name = "Torso"
+      p79.CFrame = CFrame.new(2.08616257e-07, -1.71363354e-07, -0.354957342, 0.52965939, -0.668736994, 0.52177763, 0.841198325, 0.335200191, -0.424295247, 0.108841807, 0.663650453, 0.740082502)
+      p79.Parent = p78
+      do
+        local p80 = Instance.new("Pose")
+        p80.Name = "Left Leg"
+        p80.CFrame = CFrame.new(-0.236605197, 0.055516839, 0.0602217913, 0.926779807, 0.350413889, -0.135244474, -0.240129143, 0.829636037, 0.504029691, 0.288821697, -0.434648693, 0.85303247)
+        p80.Parent = p79
+      end
+      do
+        local p81 = Instance.new("Pose")
+        p81.Name = "Right Arm"
+        p81.CFrame = CFrame.new(0.437135279, 0.663310945, 0.282071829, -0.661514401, -0.361856431, -0.65685761, 0.744837224, -0.418998659, -0.519290984, -0.0873117968, -0.832768202, 0.546696126)
+        p81.Parent = p79
+      end
+      do
+        local p82 = Instance.new("Pose")
+        p82.Name = "Head"
+        p82.CFrame = CFrame.new(2.23517418e-08, -2.5331974e-07, 2.98023224e-07, 0.723182797, 0.68833673, 0.0565624721, -0.640181065, 0.637345195, 0.428904593, 0.259180903, -0.346386641, 0.901577294)
+        p82.Parent = p79
+      end
+      do
+        local p83 = Instance.new("Pose")
+        p83.Name = "Right Leg"
+        p83.CFrame = CFrame.new(0.366720021, 0.570952773, 0.390882969, 0.516743958, -0.566953897, -0.641513944, 0.333998859, 0.823436737, -0.458694011, 0.788303256, 0.0227623135, 0.614866793)
+        p83.Parent = p79
+      end
+      do
+        local p84 = Instance.new("Pose")
+        p84.Name = "Left Arm"
+        p84.CFrame = CFrame.new(0.0759284496, -0.0188342929, 0.0583716035, -0.0483283848, 0.619204283, 0.783744812, -0.886918545, 0.334293723, -0.318796873, -0.459397227, -0.710522294, 0.533024907)
+        p84.Parent = p79
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.5166666507720947
+  k.Parent = KeyframeSequence
+  do
+    local p85 = Instance.new("Pose")
+    p85.Name = "HumanoidRootPart"
+    p85.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p85.Parent = k
+    do
+      local p86 = Instance.new("Pose")
+      p86.Name = "Torso"
+      p86.CFrame = CFrame.new(2.68220901e-07, -3.16649675e-08, -0.354957879, 0.30549702, -0.592819929, 0.745141864, 0.932627261, 0.0284647644, -0.359717131, 0.192037016, 0.80483222, 0.561575949)
+      p86.Parent = p85
+      do
+        local p87 = Instance.new("Pose")
+        p87.Name = "Left Leg"
+        p87.CFrame = CFrame.new(-0.582053125, 0.272421777, 0.0933508873, 0.764671981, 0.640138924, -0.0741645992, -0.4648211, 0.627608418, 0.624542236, 0.44633922, -0.443096995, 0.777462661)
+        p87.Parent = p86
+      end
+      do
+        local p88 = Instance.new("Pose")
+        p88.Name = "Right Arm"
+        p88.CFrame = CFrame.new(0.499517977, 0.593409359, 0.477465451, -0.656553388, -0.35513407, -0.665447891, 0.732148767, -0.512210548, -0.449003279, -0.181390896, -0.781999588, 0.596302867)
+        p88.Parent = p86
+      end
+      do
+        local p89 = Instance.new("Pose")
+        p89.Name = "Head"
+        p89.CFrame = CFrame.new(3.7602149e-08, -2.98023224e-07, 2.38418579e-07, 0.50195092, 0.864891469, -0.00285556912, -0.738072038, 0.430066168, 0.519896626, 0.450882226, -0.258854985, 0.854224384)
+        p89.Parent = p86
+      end
+      do
+        local p90 = Instance.new("Pose")
+        p90.Name = "Right Leg"
+        p90.CFrame = CFrame.new(0.242361546, 0.590840638, 0.387013376, 0.253950626, -0.70619899, -0.660906196, 0.288665682, 0.70750463, -0.645069718, 0.923138201, -0.0269644894, 0.383525461)
+        p90.Parent = p86
+      end
+      do
+        local p91 = Instance.new("Pose")
+        p91.Name = "Left Arm"
+        p91.CFrame = CFrame.new(0.0759280324, -0.0188366175, 0.0583741069, -0.132051304, 0.535782635, 0.833969355, -0.924128175, 0.237785786, -0.299087465, -0.358548164, -0.810186207, 0.463729203)
+        p91.Parent = p86
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.6333333253860474
+  k.Parent = KeyframeSequence
+  do
+    local p92 = Instance.new("Pose")
+    p92.Name = "HumanoidRootPart"
+    p92.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p92.Parent = k
+    do
+      local p93 = Instance.new("Pose")
+      p93.Name = "Torso"
+      p93.CFrame = CFrame.new(0.0380079597, -0.0155285466, -0.343401074, 0.195612445, -0.684385419, 0.702390611, 0.965355277, 0.00824886933, -0.260809332, 0.172699958, 0.729074121, 0.662288785)
+      p93.Parent = p92
+      do
+        local p94 = Instance.new("Pose")
+        p94.Name = "Left Leg"
+        p94.CFrame = CFrame.new(-0.704545617, 0.300346136, 0.0163277686, 0.841981828, 0.488761783, -0.228429809, -0.203406334, 0.679749727, 0.704677284, 0.499693066, -0.54686147, 0.671752334)
+        p94.Parent = p93
+      end
+      do
+        local p95 = Instance.new("Pose")
+        p95.Name = "Right Arm"
+        p95.CFrame = CFrame.new(0.638238311, 0.291116029, 0.434644938, -0.413657635, -0.671562314, -0.614731431, 0.901432455, -0.207379788, -0.380024374, 0.127728447, -0.711336374, 0.691150486)
+        p95.Parent = p93
+      end
+      do
+        local p96 = Instance.new("Pose")
+        p96.Name = "Head"
+        p96.CFrame = CFrame.new(2.81725079e-08, -3.27825546e-07, 2.68220901e-07, 0.436866671, 0.899521828, -0.00285556912, -0.767750978, 0.37452057, 0.519896626, 0.468727827, -0.224933162, 0.854224384)
+        p96.Parent = p93
+      end
+      do
+        local p97 = Instance.new("Pose")
+        p97.Name = "Right Leg"
+        p97.CFrame = CFrame.new(0.19197613, 0.539059281, 0.401427418, 0.314623326, -0.526292384, -0.789959192, 0.200628132, 0.850292444, -0.486578584, 0.927773774, -0.00539810956, 0.373109668)
+        p97.Parent = p93
+      end
+      do
+        local p98 = Instance.new("Pose")
+        p98.Name = "Left Arm"
+        p98.CFrame = CFrame.new(0.0759262294, -0.0188409686, 0.0583769083, -0.043059811, 0.653277755, 0.755896449, -0.873084903, 0.343195915, -0.346334577, -0.485669076, -0.674872637, 0.55558598)
+        p98.Parent = p93
+      end
+    end
+  end
+end
+
+do
+  local k = Instance.new("Keyframe")
+  k.Time = 0.7333333492279053
+  k.Parent = KeyframeSequence
+  do
+    local p99 = Instance.new("Pose")
+    p99.Name = "HumanoidRootPart"
+    p99.CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    p99.Parent = k
+    do
+      local p100 = Instance.new("Pose")
+      p100.Name = "Torso"
+      p100.CFrame = CFrame.new(0.0268676877, -0.0109771341, -0.242748827, 0.548708439, -0.67837584, 0.488595188, 0.836010456, 0.443590522, -0.322976798, 0.00236348808, 0.585690737, 0.810531139)
+      p100.Parent = p99
+      do
+        local p101 = Instance.new("Pose")
+        p101.Name = "Left Leg"
+        p101.CFrame = CFrame.new(-0.49803865, 0.212317109, 0.0115407109, 0.918097198, 0.337830633, -0.207287341, -0.189928323, 0.83400929, 0.518030703, 0.347886175, -0.436232805, 0.829865158)
+        p101.Parent = p100
+      end
+      do
+        local p102 = Instance.new("Pose")
+        p102.Name = "Right Arm"
+        p102.CFrame = CFrame.new(0.560489237, 0.0367453694, 0.0860019326, 0.0340157971, -0.879040182, -0.475532144, 0.976808131, 0.129883438, -0.170222655, 0.211396247, -0.45871374, 0.863072038)
+        p102.Parent = p100
+      end
+      do
+        local p103 = Instance.new("Pose")
+        p103.Name = "Head"
+        p103.CFrame = CFrame.new(3.7252903e-08, -1.63912773e-07, 2.08616257e-07, 0.699863195, 0.711122215, -0.0670571849, -0.640891612, 0.666634262, 0.380600512, 0.315356106, -0.223391891, 0.922305048)
+        p103.Parent = p100
+      end
+      do
+        local p104 = Instance.new("Pose")
+        p104.Name = "Right Leg"
+        p104.CFrame = CFrame.new(0.135701656, 0.381061614, 0.283767998, 0.63201344, -0.387171388, -0.671310127, 0.212320194, 0.919618011, -0.33048892, 0.745304763, 0.0663407445, 0.663415194)
+        p104.Parent = p100
+      end
+      do
+        local p105 = Instance.new("Pose")
+        p105.Name = "Left Arm"
+        p105.CFrame = CFrame.new(0.0536729097, -0.0133159459, 0.0412644744, 0.41435501, 0.640242398, 0.646838069, -0.763657033, 0.63122189, -0.135598019, -0.495113969, -0.437776804, 0.750475585)
+        p105.Parent = p100
+      end
+    end
+  end
+end
+
+return KeyframeSequence
